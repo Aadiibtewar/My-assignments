@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>login</title>
+	<link rel="stylesheet" type="text/css" href="login1.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+	<div align="center" class="mdiv">
+		<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6UzHCSF-K_N2VL2RYPuffXFLBKcx6WXhxTObjuo0ed2gUjkYn5ZqjL94TXWxzFFNtepc&usqp=CAU"></p>
+		<h1 ><b>WELCOME</b></h1>
+		<form>
+			<fieldset>
+				<i class="fa-solid fa-user"></i><input type="email" name="usn" placeholder="Username" id="usr" required><br><br>
+				<i class="fa-solid fa-lock"></i><input type="password" name="pwd" placeholder="password" id="pass" required minlength="6" maxlength="20">
+				<p align="right"><a href="link" target="tab">Forgot password?</a></p><br>
+				<input type="submit" name="btn" value="LOGIN" onclick="validate()"><br>
+				<p align="center"><a href="link" target="tab">New user?</a></p>
+
+
+				
+			</fieldset>
+		</form>
+	</div>
+	<script type="text/javascript">
+		let usr1="Aadinath@gmail"
+		let pass1="Aadi123"
+		function validate(){
+			let usr2= document.getElementById("usr").value;
+			let pass2= document.getElementById("pass").value;
+			if((usr1===usr2)&&(pass1===pass2))
+			{
+				open('homepage.html');
+			}
+			else{
+				alert("wrong credenetial")
+			}
+
+		}
+	</script>
+
+</body>
+</html>

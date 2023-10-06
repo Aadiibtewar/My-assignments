@@ -1,0 +1,62 @@
+*{
+	
+	margin: 0px;
+	padding: 0px;
+	
+
+}
+.mdiv{
+	height: 480px;
+	width: 30%;
+	margin: 200px 800px;
+}
+fieldset{
+	border: none;
+	height: 250px;
+	padding: 20px;
+
+}
+input{
+	height: 30px;
+	width: 90%;
+	border: none;
+	border-bottom: solid gray;
+	background-color: transparent;
+	font-weight: bolder;
+}
+a{
+	align:"center";
+	color: gray;
+	text-decoration: none;
+
+
+}
+input[name="btn"]{
+	background-color: lightgreen;
+	height: 40px;
+	
+	color: white;
+	border-radius: 20px;
+	cursor:pointer;
+
+}
+input:focus{
+	
+	font-weight: bolder;
+	outline: none;
+	border-bottom:solid green;
+	
+}
+body{
+	background-image: url(https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2052&q=80);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+img{
+	height: 60px;
+	border-radius: 70px;
+}
+i{
+	color: gray;
+}
